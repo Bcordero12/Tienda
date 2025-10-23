@@ -9,7 +9,7 @@ package Tienda.demo.controller;
  *
  * @author corde
  */
-import com.tienda.service.CategoriaService;
+import Tienda.demo.service.CategoriaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

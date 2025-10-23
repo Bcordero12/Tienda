@@ -5,8 +5,8 @@
 
 package Tienda.demo.service;
 
-import com.tienda.domain.Categoria;
-import com.tienda.repository.CategoriaRepository;
+import Tienda.demo.domain.Categoria;
+import Tienda.demo.repository.CategoriaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,5 +32,5 @@ public class CategoriaService {
         return categoriaRepository.findAll();
     
     }
-    }
+}
 
